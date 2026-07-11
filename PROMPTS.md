@@ -1,0 +1,1 @@
+Create a simple HTML and CSS section for a DevConf 2026 website about a Hackathon Challenge. Include a heading, short description, three feature cards with Font Awesome icons, and a call-to-action button. Use beginner-friendly HTML and CSS with a modern design
