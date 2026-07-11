@@ -265,3 +265,111 @@ nav ul li a{
 .pricing-active .pricing-btn:hover{
     background:#2454dc;
 }
+
+/* ai section*/
+/* Why Attend Section */
+.why-attend{
+    width:100vw;
+    margin-left:calc(50% - 50vw);
+    padding:90px 5%;
+    background:linear-gradient(135deg,#14213d,#1f4068);
+    color:#fff;
+    box-sizing:border-box;
+}
+
+.why-attend h2{
+    text-align:center;
+    font-size:46px;
+    margin-bottom:15px;
+}
+
+.why-attend .subtitle{
+    max-width:750px;
+    margin:0 auto 60px;
+    text-align:center;
+    color:#d9d9d9;
+    line-height:1.8;
+}
+
+.feature-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+    gap:30px;
+    width:100%;
+}
+
+.feature-card{
+    width:100%;
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(255,255,255,0.15);
+    border-radius:15px;
+    padding:35px;
+    text-align:center;
+    backdrop-filter:blur(10px);
+    transition:.4s;
+}
+
+.feature-card:hover{
+    background:#3568ff;
+    transform:translateY(-10px);
+}
+
+.feature-card i{
+    font-size:45px;
+    color:#ffd43b;
+    margin-bottom:20px;
+}
+
+.feature-card h3{
+    font-size:24px;
+    margin-bottom:15px;
+}
+
+.feature-card p{
+    color:#eee;
+    line-height:1.7;
+}
+
+.cta{
+    text-align:center;
+    margin-top:60px;
+}
+
+.cta a{
+    display:inline-block;
+    padding:15px 40px;
+    background:#ffd43b;
+    color:#16202c;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+    transition:.3s;
+}
+
+.cta a:hover{
+    background:#fff;
+}
+
+@media (max-width:768px){
+
+    .why-attend{
+        padding:70px 20px;
+    }
+
+    .why-attend h2{
+        font-size:34px;
+    }
+
+    .why-attend .subtitle{
+        margin-bottom:40px;
+    }
+
+    .feature-grid{
+        grid-template-columns:1fr;
+        gap:20px;
+    }
+
+    .feature-card{
+        padding:25px;
+    }
+}
