@@ -41,4 +41,101 @@ nav ul li a{
     cursor:pointer;
 }
 
+/* Hero Section */
 
+.hero{
+    height:800px;
+    background-image:url("./images/banner.jpg");
+    background-size:cover;
+    background-position:center;
+    position:relative;
+    text-align:center;
+    color:white;
+}
+
+
+.content{
+    position:relative;
+    z-index:2;
+    width:700px;
+    margin:auto;
+    padding-top:130px;
+}
+
+.content h1{
+    font-size:50px;
+    margin-bottom:20px;
+}
+
+.content p{
+    width:620px;
+    margin:auto;
+    font-size:16px;
+    line-height:28px;
+}
+
+/* Hero Button */
+
+.btn2{
+    position:absolute;
+    bottom:100px;
+    left:50%;
+    transform:translateX(-50%);
+
+    background:#2952ff;
+    color:white;
+    border:none;
+    padding:16px 38px;
+    border-radius:8px;
+    font-size:17px;
+    cursor:pointer;
+    z-index:2;
+}
+/* speakers */
+
+.speakers{
+    width:80%;
+    margin:60px auto;
+}
+
+.speakers h2{
+    text-align:center;
+    font-size:40px;
+    margin-bottom:40px;
+}
+
+.speaker-grid{
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    gap:30px;
+}
+
+.card{
+    background:white;
+    border:1px solid #ddd;
+    border-radius:10px;
+    overflow:hidden;
+}
+
+.card img{
+    width:100%;
+    object-fit:cover;  
+    display:block;
+}
+
+.card h3{
+    font-size:22px;
+    margin:20px 20px 10px;
+}
+
+.card h5{
+    margin:0 20px 10px;
+    color:#2952ff;
+    font-size:14px;
+}
+
+.card p{
+    margin:0 20px 20px;
+    color:#555;
+    line-height:24px;
+}
